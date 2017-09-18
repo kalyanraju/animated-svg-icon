@@ -11,16 +11,16 @@ Primary style
 
 body {
   background-color: #f8f8f8;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Podkova', serif;
 }
 
 header {
   position: relative;
-  padding: 3em;
+  padding: 1em;
 }
-header h1 {
+header h1, .message h1, .meet {
   font-size: 20px;
-  color: #2f889a;
+  color: #223443;
   text-align: center;
   line-height: 1.2;
   width: 90%;
@@ -45,11 +45,13 @@ header h1 {
     font-weight: 300;
   }
 }
-
+#msg{
+	display:none;
+}
 .cd-svg-container {
   width: 90%;
   max-width: 200px;
-  margin: 0 auto 100px;
+  margin: 0 auto;
 }
 .cd-svg-container svg {
   display: block;

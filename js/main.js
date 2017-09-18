@@ -19,7 +19,9 @@
 		buildingWindow3 = animatingSvg.select('#cd-home-3-window'),
 		floor = animatingSvg.select('#cd-floor'),
 		clouds1 = animatingSvg.select('#cd-cloud-1'),
+		msg=animatingSvg.select('#msg'),
 		clouds2 = animatingSvg.select('#cd-cloud-2');
+		
 
 	//circumf will be used to animate the loadingCircle
 	var circumf = Math.PI*(loadingCircle.attr('r')*2);
@@ -43,9 +45,13 @@
 				loadingSvg.addClass('fade-out');
 				setTimeout(function(){
 					animateFloor();
+							document.getElementById('msg').style.display = 'block';
+
 				}, 300);
 			}
 		);
+		
+
 	});
 
 	//detect the click on the pause btn and stop the animation
@@ -57,9 +63,19 @@
 		playBtn.animate({'transform': 's1 1'}, 200, mina.easeinout);
 		//scale down pause btn
 		pauseBtn.animate({'transform': 's0 0'}, 200, mina.easeinout);
+		
+		
 	});
 
+	function getname() {
+    var person = prompt("Please enter your name", "kalyan's Friend");
+    if (person != null) {
+        document.getElementById("name").innerHTML =
+        "Hi " + person + "! Hope you are having great day";
+    }
+}
 	function initLoading() {
+		getname();
 		loadingCircle.attr({
 			'stroke-dasharray': circumf+' '+circumf,
 			'stroke-dashoffset': circumf,
