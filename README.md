@@ -1,10 +1,10 @@
-Animated SVG Icon
+Animated SVG home Icon and house warming invitation template
 =========
 
-How to optimize SVG code and animate an SVG icon using CSS and Snap.svg library.
+How to optimize SVG code and animate an SVG icon using CSS and Snap.svg library.-by codyhouse
 
-[Article on CodyHouse](http://codyhouse.co/gem/animate-svg-icons-with-css-and-snap/)
+thanks to [Article on CodyHouse](http://codyhouse.co/gem/animate-svg-icons-with-css-and-snap/)
 
-[Demo](http://codyhouse.co/demo/animated-svg-icon/index.html)
+direct demo from codyhouse [Demo](http://codyhouse.co/demo/animated-svg-icon/index.html)
  
-[Terms](http://codyhouse.co/terms/)
+[codyhouse Terms](http://codyhouse.co/terms/)
